@@ -1,13 +1,10 @@
+@import '../../styles/shared.scss';
 .ui.menu.top-menu {
-    border: none; /*Remove a borda inferior da IU semântica*/
-    .logo {
-      width: 17rem;
-    }
-    .nav-container {
-      justify-content: space-between; /*maximizar os espaços em branco entre os elementos*/
-      flex-grow: 1; /* ocupar espaço disponível no flex container */
-      padding: 0;
-    }    
+  border: none;
+  .logo {
+    width: $sidebar-left-width;
+  }
+  /* ... */
 }
 
 .nav-container {
