@@ -1,0 +1,34 @@
+.ui.menu.top-menu {
+    border: none; /*Remove a borda inferior da IU semântica*/
+    .logo {
+      width: 17rem;
+    }
+    .nav-container {
+      justify-content: space-between; /*maximizar os espaços em branco entre os elementos*/
+      flex-grow: 1; /* ocupar espaço disponível no flex container */
+      padding: 0;
+    }    
+}
+
+.nav-container {
+    flex-grow: 1;
+    padding: 0;
+  
+    .search-input {
+      padding-left: 0;
+      width: 33%;
+  
+        form {
+            width: 100%;
+        }
+    }
+}
+
+.ui.menu.top-menu {
+    border: none;
+    /* ... */
+  
+    .header-icon {
+      color: #a0a0a0;
+    }
+  }
